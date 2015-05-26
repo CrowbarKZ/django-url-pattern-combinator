@@ -105,7 +105,7 @@ def process(pattern):
 if __name__ == '__main__':
     print process(
         r'^prefix'
-        '/(?P<p1>office|school|carpet|window|'
+        '/(?P<p1>office|school|carpet|window)'
         '-(?P<p2>cleaning|cleans|cleaner|cleaners)'
         '(-(?P<p3>uk|usa|france))?$'
     )
